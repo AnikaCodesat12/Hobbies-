@@ -1,0 +1,112 @@
+#hello {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    display:table;
+    width: 100%;
+    z-index:9
+    
+}
+
+.img1 {
+    height: 300px;
+    width: 500px;
+    border-radius: 50%;
+    
+
+}
+
+
+.name{
+    font-family: 'WindSong', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+
+body {
+    margin:0;
+    padding-top: 800px;
+    text-align: center;
+    color: white
+}
+
+
+
+
+.parallax-inner{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    
+
+}
+
+
+.menu{
+    top: 10px;
+    list-style: none;
+    font-family: 'WindSong', cursive;
+    font-size: 40px;
+    position: absolute;
+    z-index: 15;
+    right: 60px;
+}
+
+
+.link{
+    float: left;
+    padding-right:25px;
+    padding-left: 25px;
+    color: black
+}
+
+.link:hover{
+    background-color: white;
+    font-size: 50px;
+}
+
+p{
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.2;
+    font-size: 25px;
+    
+}
+
+#About{
+    text-align: center;
+}
+
+.underline{
+    height: 6px;
+    width: 150px;
+    background-color: whitesmoke;
+    margin: 15px auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#videos{
+    text-align: center;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+    background-color: purple;
+}
+
